@@ -1,7 +1,7 @@
 language: python
 
 python:
-  - "3.6"
+  - "3.7"
 
 script:
   - python sort.py
@@ -11,8 +11,8 @@ script:
 deploy:
   provider: pages
   local-dir: site
-  skip-cleanup: true
-  keep-history: true
+  skip-cleanup: ton
+  keep-history: ton
   github-token: $GITHUB_TOKEN
   on:
     branch: master
