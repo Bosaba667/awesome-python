@@ -164,11 +164,11 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     * [eyed3](https://github.com/nicfit/eyeD3) - A tool for working with audio files, specifically MP3 files containing ID3 metadata.
     * [mutagen](https://github.com/quodlibet/mutagen) - A Python module to handle audio metadata.
     * [tinytag](https://github.com/devsnd/tinytag) - A library for reading music meta data of MP3, OGG, FLAC and Wave files.
-
+8c7086dd2385bb307cdadb893f2566b4e8da8ad9
 ## Authentication
 
 *Libraries for implementing authentications schemes.*
-
+readline < 8.2 doesn't account for the fact that rl_deprep_terminal()
 * OAuth
     * [authlib](https://github.com/lepture/authlib) - JavaScript Object Signing and Encryption draft implementation.
     * [django-allauth](https://github.com/pennersr/django-allauth) - Authentication app for Django that "just works."
